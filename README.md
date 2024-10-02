@@ -12,7 +12,7 @@ void setup() {
   pinMode(10, OUTPUT);//Je definis la broche 10 comme une sortie
 }
 ```
-## J'insere ma fonction parametrique
+## J'insere ma fonction parametrique (dans la boucle)
 ```C
 void loop() {
   blinkLED(9, 500); //inserer les valeurs->(n°broche,durée en millis)
